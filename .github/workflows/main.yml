@@ -9,9 +9,9 @@ jobs:
       name: morning first job
       runs-on: self-hosted
       steps:
-       -  name: Hare Krishna
-          env:
-            MY_VAR: Hi there!! we are DevOps team!!!
-            MESSAGE: we are devoteee of Shree Krishna
-          run: |
-              "echo $env:MY_VAR $env:MESSAGE"
+       - name: Hare Krishna
+         env:
+          MY_VAR: "Hi there!! we are DevOps team!!!"
+          MESSAGE: "we are devotee of Shree Krishna"
+         run: echo "$MY_VAR $MESSAGE"
+         shell: bash
