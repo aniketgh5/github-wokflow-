@@ -9,7 +9,7 @@ jobs:
       name: morning first job
       runs-on: self-hosted
       steps:
-        - name: Hare Krishna
+       -  name: Hare Krishna
           env:
             MY_VAR: Hi there!! we are DevOps team!!!
             MESSAGE: we are devoteee of Shree Krishna
